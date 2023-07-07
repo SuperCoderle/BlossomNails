@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/SuperCoderle/BlossomNails.git/static/css/main.2a8983fc.css",
+    "main.js": "/SuperCoderle/BlossomNails.git/static/js/main.0197337e.js",
+    "static/js/969.fe6cbec8.chunk.js": "/SuperCoderle/BlossomNails.git/static/js/969.fe6cbec8.chunk.js",
+    "static/media/logo3.png": "/SuperCoderle/BlossomNails.git/static/media/logo3.c742be5ecb2e71b630f7.png",
+    "static/media/logo.png": "/SuperCoderle/BlossomNails.git/static/media/logo.89217e1c0987b43e7d03.png",
+    "index.html": "/SuperCoderle/BlossomNails.git/index.html",
+    "main.2a8983fc.css.map": "/SuperCoderle/BlossomNails.git/static/css/main.2a8983fc.css.map",
+    "main.0197337e.js.map": "/SuperCoderle/BlossomNails.git/static/js/main.0197337e.js.map",
+    "969.fe6cbec8.chunk.js.map": "/SuperCoderle/BlossomNails.git/static/js/969.fe6cbec8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a8983fc.css",
+    "static/js/main.0197337e.js"
+  ]
+}
