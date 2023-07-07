@@ -1,0 +1,437 @@
+@media only screen and (max-width: 600px) {
+    body {
+        width: 100%;
+        position: relative;
+    }
+
+    section {
+        padding: 2rem 1rem 0.8rem;
+    }
+
+    .banner {
+        background: none !important;
+        height: 10vh;
+    }
+
+    .banner-content {
+        display: none;
+    }
+
+    .quick-contact {
+        padding: 0.3rem;
+    }
+
+    .quick-contact .navbar {
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        background-color: rgb(112 38 100);
+        height: 100vh;
+        width: 90%;
+        transition: all 0.5s ease;
+        transform: translateX(-999px);
+    }
+
+    .quick-contact .navbar.open {
+        display: block;
+        opacity: 1;
+        transform: translateX(-10px);
+        z-index: 999;
+    }
+
+    .quick-contact .logo,
+    .service-section .service-categories li a p {
+        opacity: 0;
+        display: none;
+    }
+
+    .quick-contact .navbar li {
+        padding: 0.7rem 2rem;
+        font-size: 24px;
+    }
+
+    .quick-contact .navbar li:first-child {
+        display: block;
+        text-align: right;
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .quick-contact .navbar li a {
+        color: white;
+    }
+
+    .quick-contact .menu {
+        display: block;
+        font-size: 2rem;
+    }
+
+    .service-section .service-categories {
+        display: flex;
+        color: black;
+    }
+
+    .service-section .service-categories li {
+        padding: 6px 10px;
+    }
+
+    .service-section {
+        padding: 1rem 2rem;
+    }
+
+    .service-section .service-categories li a img {
+        width: 24px;
+        height: 24px;
+        display: block;
+    }
+
+    .service-section .items .item h5 {
+        font-size: 12px;
+    }
+
+    .service-section .items .item::before {
+        top: 9px;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .introduction p {
+        font-size: 12px;
+    }
+
+    .introduction .introduction-icon {
+        flex-wrap: wrap;
+    }
+
+    .introduction .introduction-icon img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .introduction .introduction-icon li {
+        width: 150px;
+        height: 150px;
+        margin: 0.4rem;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+
+    .introduction .introduction-icon li:hover {
+        background-color: rgba(207, 188, 188, 0.4);
+    }
+
+    .introduction .row .col-6 {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .introduction .row .col-6 h3 {
+        font-size: 24px;
+    }
+
+    .introduction .row .col-6 p {
+        font-size: 16px;
+    }
+
+    .introduction .row .col-6 a {
+        width: 100%;
+        display: block;
+    }
+
+    .introduction .row .col-6:last-child {
+        margin-top: 2rem;
+    }
+
+    footer .row .col-3 {
+        width: 100%;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    .footer .row h2 {
+        margin-bottom: 0.5rem;
+    }
+
+    .row {
+        display: block;
+        margin: 0 !important;
+    }
+
+    .row .col-5,
+    .row .col-7 {
+        width: 100%;
+    }
+
+    .bg-text {
+        height: 20vh;
+        background: linear-gradient(rgb(100 38 38 / 52%), rgb(135 78 78 / 70%)), url(https://static.vecteezy.com/system/resources/previews/007/095/588/original/nail-polish-realistic-3d-makeup-cosmetic-illustration-manicure-and-pedicure-mockup-color-ad-product-background-spash-paint-beauty-fashion-pink-lacquer-bottle-brand-varnish-poster-art-reflection-gel-free-vector.jpg);
+        position: relative;
+    }
+
+    .bg-text h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
+
+    .sdp {
+        width: 100%;
+        font-size: 14px;
+        margin: 0;
+        gap: 0;
+    }
+
+    .sdp--grid p,
+    .sdp--grid button {
+        margin: 5px;
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+
+    .booking-calender form,
+    .booking-calender .finish {
+        margin: 0;
+    }
+
+    .booking-calender form input,
+    .booking-calender .service-select .col-4,
+    .booking-calender .service-select .col-8,
+    .booking-calender .finish .col-6 {
+        width: 100%;
+    }
+
+    .booking-calender .service-select .col-4 {
+        padding: 0;
+    }
+
+    .booking-calender form input:nth-child(3),
+    .booking-calender .service-select,
+    .booking-calender .service-select .col-8,
+    .booking-calender form textarea,
+    .booking-calender form input:disabled {
+        margin: 20px 0 0 !important;
+    }
+
+    .booking-calender .finish button {
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .booking-time,
+    .booking-calender .service-select ul {
+        justify-content: space-between;
+    }
+
+    .booking-time li button,
+    .booking-calender .service-select li {
+        margin: 8px;
+    }
+
+    .service-section .items .item {
+        margin-bottom: 20px;
+    }
+
+
+    /* Manager */
+    nav {
+        position: absolute;
+        top: 0;
+        width: 80%;
+        transition: all 0.5s ease;
+        transform: translateX(-999px);
+    }
+
+    nav.show {
+        transform: translateX(0);
+    }
+
+    .top-item,
+    .main {
+        position: relative;
+        width: 100%;
+        left: 0;
+        padding: 10px;
+        flex-direction: row-reverse;
+    }
+
+    .top-item ul {
+        display: none;
+    }
+
+    .top-item .menu {
+        display: block;
+        font-size: 30px;
+    }
+
+    .main {
+        margin-top: 0.5rem;
+        height: 115vh;
+    }
+
+    .rs__cell {
+        height: 65px !important;
+    }
+
+    .main .tool {
+        display: block;
+    }
+
+    .main .tool .search-tool input {
+        width: 100%;
+    }
+
+    .main .search,
+    .main .status {
+        padding: 0;
+    }
+
+    .main table {
+        max-height: 80%;
+    }
+
+    .menu-bar ul:first-child li:first-child {
+        display: block;
+        text-align: right;
+        padding: 0;
+    }
+
+    .menu-bar ul:first-child li:first-child a {
+        font-size: 30px;
+    }
+
+    .logo img {
+        width: 12rem;
+    }
+
+    .clients .row {
+        padding: 0;
+    }
+
+    .clients .row .col-4 {
+        width: 100%;
+        padding: 0;
+    }
+
+    .clients .row .card {
+        display: none;
+    }
+
+    .clients .row .card.mobile {
+        display: block;
+    }
+
+    .card-body {
+        padding: 0.4rem;
+    }
+
+    .card-body .card-mobile {
+        display: flex;
+        align-items: center;
+    }
+
+    .card-body .card-mobile img {
+        width: 28px;
+        height: 28px;
+        margin-right: 0.5rem;
+    }
+
+    .card-body .card-mobile h5 {
+        margin: 0;
+    }
+
+    .card-body .card-mobile div button {
+        width: 100%;
+        height: 100%
+    }
+
+    .card-body .card-mobile div button i {
+        width: 80%;
+        height: 80%;
+    }
+
+    .booking-calender .col-sm-12 {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .booking-calender .timepicker-div {
+        width: 100%;
+    }
+
+    .booking-calender .timepicker-div .timepicker {
+        position: relative;
+        transform: none;
+        top: 0;
+        left: 0;
+        margin: 2rem 0;
+    }
+
+    .booking-calender .finish .address {
+        width: 100%;
+    }
+
+    .section-booking .steps {
+        display: none;
+    }
+
+    .section-booking .mobile {
+        display: block;
+        font-size: 22px;
+    }
+
+    .section-booking .btn-change {
+        justify-content: space-evenly;
+    }
+
+    .booking-calender .col-sm-12 .choose-staff {
+        display: block;
+    }
+
+    .booking-calender .btn-staff {
+        width: 100%;
+        padding: 1rem;
+        height: 5rem;
+    }
+
+    .booking-calender .btn-staff .error {
+        width: 35%;
+        font-size: 11px;
+    }
+
+    .skip {
+        width: 100%;
+        display: block;
+        margin: 2rem 0;
+    }
+
+    .booking-calender .booking-confirmed .col-4,
+    .booking-calender .booking-confirmed .col-7 .p-confirmed p {
+        width: 100%;
+    }
+
+    .booking-calender .booking-confirmed .col-7 .time-confirmed,
+    .booking-calender .booking-confirmed .col-7:last-child {
+        display: block;
+    }
+
+    .booking-calender .booking-confirmed .col-7 .time-confirmed button {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .booking-calender .booking-confirmed .col-7:last-child a {
+        color: rgb(211, 82, 82);
+        display: block;
+        margin-top: 1rem;
+        text-align: center;
+        padding: 0.5rem 1.7rem;
+        border: 1px solid;
+        border-radius: 3px;
+    }
+}
